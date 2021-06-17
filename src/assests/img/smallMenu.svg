@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="12" viewBox="0 0 27 12">
+  <g id="Components_Icons_Settings_Active" data-name="Components / Icons / Settings / Active" transform="translate(0.5 0.5)">
+    <g id="_3dots" data-name="3dots">
+      <g id="Group_2" data-name="Group 2">
+        <rect id="Rectangle" width="26" height="11" rx="5.5" fill="#fdf9f2" stroke="#bebebe" stroke-miterlimit="10" stroke-width="1"/>
+        <circle id="Oval" cx="1.464" cy="1.464" r="1.464" transform="translate(6.222 3.66)" fill="#e0dbd0"/>
+        <circle id="Oval_Copy_6" data-name="Oval Copy 6" cx="1.464" cy="1.464" r="1.464" transform="translate(11.347 3.66)" fill="#e0dbd0"/>
+        <circle id="Oval_Copy_7" data-name="Oval Copy 7" cx="1.464" cy="1.464" r="1.464" transform="translate(16.471 3.66)" fill="#e0dbd0"/>
+      </g>
+    </g>
+  </g>
+</svg>
