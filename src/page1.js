@@ -1,5 +1,8 @@
 // console.log("js running");
 // Index page travelor review
+
+import $ from 'jquery';
+
 function showHideReview(user) {
     // let user1 = document.getElementById("user1-review");
     // console.log("function call");
@@ -28,7 +31,7 @@ function closeNav() {
 
 // Date section in page2
 function changeLink() {
-    $('li').click(function() {
+    $('li').click(function () {
         $('li').removeClass("active");
         $(this).addClass("active");
     });
@@ -78,7 +81,7 @@ function showOTPInput() {
 
 // Page 3
 // Modal
-window.onload = function() {
+window.onload = function () {
     document.getElementById('modal-card-button').setAttribute("disabled", "");
 }
 
@@ -106,7 +109,7 @@ var interval;
 
 function countdown() {
     clearInterval(interval);
-    interval = setInterval(function() {
+    interval = setInterval(function () {
         var timer = $('.js-timeout').html();
         timer = timer.split(':');
         var minutes = timer[0];
@@ -123,7 +126,7 @@ function countdown() {
         if (minutes == 0 && seconds == 0) clearInterval(interval);
     }, 1000);
 }
-$('#js-startTimer').click(function() {
+$('#js-startTimer').click(function () {
     // console.log("timer start");
     $('.js-timeout').text("2:00");
     countdown();
@@ -203,7 +206,7 @@ function uploadfile(file) {
 
 /*Admin dashboard*/
 function changePage() {
-    $('li').click(function() {
+    $('li').click(function () {
         $('li').removeClass("active-card-border");
         $(this).addClass("active-card-border");
     });
@@ -221,10 +224,10 @@ function changeRadio(radio, img) {
     radio.click();
     img.src = "../../assests/img/yellowTick.svg";
 }
-$(document).ready(function() {
-    $("#searchInput").on("keyup", function() {
+$(document).ready(function () {
+    $("#searchInput").on("keyup", function () {
         var value = $(this).val().toLowerCase();
-        $("#mytable tr").filter(function() {
+        $("#mytable tr").filter(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
